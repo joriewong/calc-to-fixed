@@ -1,0 +1,13 @@
+[package]
+name = "calc-to-fixed"
+version = "0.1.0"
+authors = ["Jared Wang stillba@icloud.com"]
+description = "A sample project with wasm-pack"
+license = "MIT"
+repository = "https://github.com/joriewong/calc-to-fixed"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
